@@ -100,7 +100,8 @@ export const stripeWebhooks = async(request, response)=>{
       purchaseData.status = 'completed'
       await purchaseData.save()
 
-      break;
+      break
+      ;
     }
 
     case 'payment_intent.payment_failed':{
