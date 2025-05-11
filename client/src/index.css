@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sixtyfour+Convergence&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,12 +8,15 @@
   font-family: Outfit;
 }
 
-@layer base{
-  html{
+@layer base {
+  html {
     scroll-behavior: smooth;
   }
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
 
 .rich-text { font-size: 15px; color: #7A7B7D; }
 
